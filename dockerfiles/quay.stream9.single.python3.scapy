@@ -31,9 +31,9 @@ RUN yum update -yq && \
     python3 --version && \
     pip install local-port-scanner && \
     #https://github.com/trailofbits/pip-audit
-    pip3 install pip-audit
-    pip-audit
-    pip-audit --desc
+    pip3 install pip-audit && \
+    pip-audit && \
+    pip-audit --desc && \
     source venvpy3/bin/deactivate 
 
 CMD ["/bin/bash"]

@@ -3,7 +3,7 @@ name: "pip-audit quay centos stream9 CI workflow"
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test ]
 
 
 jobs:
